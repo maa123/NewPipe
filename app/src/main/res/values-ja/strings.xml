@@ -44,8 +44,8 @@
     <string name="use_tor_title">Torを使用する</string>
     <string name="use_tor_summary">(実験的) 強制的に Tor を経由した経路で保存して､匿名性を高めます(動画の同時再生は未だ対応していません)｡</string>
     <string name="theme_title">外観</string>
-    <string name="dark_theme_title">暗</string>
-    <string name="light_theme_title">明</string>
+    <string name="dark_theme_title">ダーク</string>
+    <string name="light_theme_title">ライト</string>
 
     <string name="settings_category_appearance_title">外観</string>
     <string name="settings_category_other_title">その他</string>
@@ -113,7 +113,7 @@
     <string name="msg_server_unsupported">サーバーが対応していません</string>
     <string name="msg_exists">ファイルが既に存在します</string>
     <string name="msg_url_malform">URL の形式が正しくないか､通信が利用できません</string>
-    <string name="msg_running">NewPipeの保存中</string>
+    <string name="msg_running">NewPipeがダウンロード中</string>
     <string name="msg_running_detail">タップして詳細を表示</string>
     <string name="msg_wait">お待ちください…</string>
     <string name="msg_copied">クリップボードにコピーしました</string>
@@ -126,11 +126,11 @@
     <string name="could_not_load_image">画像を読み込みできません</string>
 
     <string name="app_ui_crash">アプリ/UI がクラッシュしました</string>
-    <string name="info_labels">何:\\n提案:\\nｺﾝﾃﾝﾂ言語:\\nｻｰﾋﾞｽ:\\nGMT 時間:\\nﾊﾟｯｹｰｼﾞ:\\nﾊﾞｰｼﾞｮﾝ:\\nOS ﾊﾞｰｼﾞｮﾝ:</string>
+    <string name="info_labels">何:\\n提案:\\nコンテンツ言語:\\nサービス:\\nGMT 時間:\\nパッケージ:\\nバージョン:\\nOSバージョン:</string>
     <string name="reCaptchaActivity">reCAPTCHA</string>
     <string name="reCaptcha_title">reCAPTCHA の要求</string>
 
-    <string name="recaptcha_request_toast">reCAPTCHA を要求しました</string>
+    <string name="recaptcha_request_toast">reCAPTCHA が要求されました</string>
 
     <string name="black_theme_title">黒</string>
 
@@ -300,6 +300,9 @@
     <string name="start_here_on_background">ここからバックグランド再生を開始</string>
     <string name="drawer_open">ドロワーを開く</string>
     <string name="drawer_close">ドロワーを閉じる</string>
+    
+    <string name="preferred_open_action_settings_title">優先する \'開く\' アクション</string>
+    <string name="preferred_open_action_settings_summary">コンテンツを開くデフォルトの設定 — %s</string>
 
     <string name="video_player">動画プレーヤー</string>
     <string name="background_player">バックグラウンドプレーヤー</string>
@@ -319,6 +322,7 @@
     <string name="metadata_cache_wipe_summary">ウェブページのキャッシュデータをすべて削除します</string>
     <string name="metadata_cache_wipe_complete_notice">メタデータのキャッシュを消去しました</string>
     <string name="auto_queue_title">次の動画を自動でキューに追加</string>
+    <string name="auto_queue_summary">繰り返しがオフのキューで最後の動画を再生する時、関連する動画を自動でキューに追加します</string>
     <string name="settings_category_debug_title">デバッグ</string>
     <string name="file">ファイル</string>
 
@@ -391,4 +395,14 @@
     <string name="import_settings">設定をインポートしますか？</string>
 
     <string name="caption_setting_title">字幕</string>
+    
+    <string name="limit_data_usage_none_description">制限なし</string>
+    <string name="limit_mobile_data_usage_title">モバイルデータ使用時の解像度の制限</string>
+    
+    <string name="minimize_on_exit_title">アプリ切り替え時の最小化</string>
+    <string name="minimize_on_exit_summary">プレーヤーから他アプリに切り替え時の動作 — %s</string>
+    <string name="minimize_on_exit_none_description">何もしない</string>
+    <string name="minimize_on_exit_background_description">バックグラウンドに変更</string>
+    <string name="minimize_on_exit_popup_description">ポップアップに変更</string>
+    
     </resources>
