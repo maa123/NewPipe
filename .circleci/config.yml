@@ -43,7 +43,7 @@ jobs:
       # run tests!
       #- run: gradle test
       - run: find . -type f -print0 | xargs -0 sed -i -e 's/org\.schabi\.newpipe/org\.schabi\.newpipemaa/g'
-      - run: for f in $(find . -name "newpipe" -type d); do mv "$f" "${f//newpipe/newpipemaa}"; done;
+      - run: rename 's/newpipe/newpipemaa/' *
       - run: chmod +x ./gradlew
       - run: ./gradlew assembleRelease
       
