@@ -43,6 +43,7 @@ jobs:
       # run tests!
       #- run: gradle test
       - run: find . -type f -print0 | xargs -0 sed -i -e 's/org\.schabi\.newpipe/org\.schabi\.newpipemaa/g'
+      - run: find . -type f -print0 | xargs -0 sed -i -e 's/org\.schabi\.newpipemaa\.extractor/org\.schabi\.newpipe\.extractor/g'
       - run: find . -name "*newpipe*.java" -print0 | xargs -0 -I% mv % %maa
       - run: chmod +x ./gradlew
       - run: ./gradlew assembleRelease
