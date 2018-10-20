@@ -74,7 +74,7 @@
     <string name="show_age_restricted_content_title">年齢制限のあるコンテンツを表示する</string>
     <string name="video_is_age_restricted">この動画には年齢制限があります｡視聴するには設定から制限を解除して下さい｡</string>
 
-    <string name="light_parsing_error">Webｻｲﾄを完全には解析できませんでした</string>
+    <string name="light_parsing_error">Webサイトを完全には解析できませんでした</string>
     <string name="could_not_get_stream">動画を取得できませんでした</string>
     <string name="sorry_string">申し訳ありません。発生すべきではありませんでした。</string>
     <string name="error_report_button_text">メールで不具合を報告</string>
@@ -294,7 +294,7 @@
     <string name="no_valid_zip_file">有効なZipファイルがありません</string>
     <string name="could_not_import_all_files">警告: すべてのファイルをインポートできませんでした。</string>
     <string name="override_current_data">これにより、現在の設定が上書きされます。</string>
-    <string name="import_youtube_instructions">ファイルからYoutubeの購読をインポートする:\n\n1.  kono  URLにアクセス: %1$s\n2. ログインしていなければログインします\n3. ファイルがダウンロードされます (これがエクスポートファイルです) </string>
+    <string name="import_youtube_instructions">ファイルからYoutubeの購読をインポートする:\n\n1.  このURLにアクセス: %1$s\n2. ログインしていなければログインします\n3. ファイルがダウンロードされます (これがエクスポートファイルです) </string>
 
     <string name="title_activity_background_player">バックグラウンド再生</string>
     <string name="start_here_on_main">ここから再生を開始</string>
